@@ -1,0 +1,169 @@
+body {
+  font-family: sans-serif;
+}
+
+#title {
+  background-color: #9e9d89;
+}
+
+.Container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #fff
+}
+
+h2 {
+  color: Black;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+/*navbar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 3.5rem;
+}
+
+.nav-item {
+  padding:
+}
+
+.download-btn {
+  margin: 10% 3% 5% 0%
+}
+
+.image-txt {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/*2nd section padding style */
+.one-box {
+  padding: 10% 10% 10% 10%
+}
+
+/* z-index elements */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+/* text styling*/
+p {
+  color: #8f8f8f;
+}
+
+.icons {
+  color: #b67162;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #9e9d89;
+}
+
+#testimonials {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+  background-color: #9e9d89;
+}
+
+.carousel-item {
+  padding: 17% 15%;
+}
+
+.dog-one {
+  text-align: center;
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #9e9d89;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.img-one {
+  width: 15%;
+  padding-right: 70px;
+}
+
+.set-all {
+  text-align: center;
+}
+
+.first-box {
+  padding-left: 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+@media (max-width: 1028px) {
+  .image-txt {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+.btn-one {
+  padding-bottom: 50px;
+}
+
+#cta {
+  font-family: sans-serif;
+  background-color: #9e9d89;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* footer */
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #9e9d89;
+  text-align: center;
+}
+
+.download-one {
+  margin-right: 30px;
+}
+
+.footer-one {
+  margin: 20px 10px;
+}
